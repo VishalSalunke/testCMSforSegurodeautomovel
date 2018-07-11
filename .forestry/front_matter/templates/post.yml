@@ -25,5 +25,14 @@ fields:
 - type: datetime
   name: date
   label: Date
+- type: select
+  config:
+    source:
+      type: simple
+      section: posts
+    options:
+    - post
+  label: Layout
+  name: layout
 pages:
 - _posts/test.md
