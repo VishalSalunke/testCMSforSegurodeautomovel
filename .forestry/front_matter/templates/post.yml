@@ -1,0 +1,27 @@
+---
+label: Post
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Title
+  name: title
+- type: textarea
+  name: descripttion
+  label: Descripttion
+- type: text
+  name: permalink
+  label: permalink
+- type: select
+  name: categories
+  config:
+    source:
+      type: simple
+      section: posts
+    options:
+    - Blog
+    - Artigos
+  label: categories
+- type: datetime
+  name: date
+  label: Date
