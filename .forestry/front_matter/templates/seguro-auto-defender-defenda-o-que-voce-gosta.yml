@@ -1,0 +1,146 @@
+---
+label: 'Seguro auto Defender: defenda o que você gosta!'
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: title
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: layout
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: description
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: date
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: permalink
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: categories
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: tags
+  default: ''
+- name: author
+  label: Author
+  type: field_group
+  fields:
+  - name: login
+    label: Login
+    type: text
+    hidden: login
+    default: ''
+  - name: email
+    label: Email
+    type: text
+    hidden: email
+    default: ''
+  - name: display_name
+    label: Display name
+    type: text
+    hidden: display_name
+    default: ''
+  - name: first_name
+    label: First name
+    type: text
+    hidden: first_name
+    default: ''
+  - name: last_name
+    label: Last name
+    type: text
+    hidden: last_name
+    default: ''
+  hidden: author
+  default: ''
+- name: id
+  label: Id
+  type: text
+  hidden: id
+  default: ''
+- name: guid
+  label: Guid
+  type: text
+  hidden: guid
+  default: ''
+- name: hefo_before
+  label: Hefo before
+  type: list
+  hidden: hefo_before
+  default: ''
+- name: hefo_after
+  label: Hefo after
+  type: list
+  hidden: hefo_after
+  default: ''
+- name: page_right_column_title
+  label: Page right column title
+  type: list
+  hidden: page_right_column_title
+  default: ''
+- name: page_right_column_content
+  label: Page right column content
+  type: list
+  hidden: page_right_column_content
+  default: ''
+- name: wpb_post_views_count
+  label: Wpb post views count
+  type: list
+  hidden: wpb_post_views_count
+  default: ''
+- name: image
+  label: Image
+  type: text
+  hidden: image
+  default: ''
+- name: image_width
+  label: Image width
+  type: text
+  hidden: image_width
+  default: ''
+- name: image_height
+  label: Image height
+  type: text
+  hidden: image_height
+  default: ''
+- name: thumbnail_80x80
+  label: Thumbnail 80x80
+  type: textarea
+  hidden: thumbnail_80x80
+  default: ''
+- name: thumbnail_150x150
+  label: Thumbnail 150x150
+  type: textarea
+  hidden: thumbnail_150x150
+  default: ''
+- name: dpsp_networks_shares
+  label: Dpsp networks shares
+  type: list
+  hidden: dpsp_networks_shares
+  default: ''
+- name: dpsp_networks_shares_total
+  label: Dpsp networks shares total
+  type: list
+  hidden: dpsp_networks_shares_total
+  default: ''
+- name: dpsp_networks_shares_last_updated
+  label: Dpsp networks shares last updated
+  type: list
+  hidden: dpsp_networks_shares_last_updated
+  default: ''
