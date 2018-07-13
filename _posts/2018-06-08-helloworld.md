@@ -9,17 +9,6 @@ tags:
 id: 4170
 author: Jeniffer Elaina da Silva
 layout: post
-guid: /?p=4170
-hefo_before:
-  - '0'
-hefo_after:
-  - '0'
-page_right_column_title:
-  -
-page_right_column_content:
-  -
-wpb_post_views_count:
-  - '33'
 custom_permalink:
   - preco-medio-do-seguro-do-versa
 image: /wp-content/uploads/2018/05/qual-o-preco-medio-do-seguro-do-versa.jpg
