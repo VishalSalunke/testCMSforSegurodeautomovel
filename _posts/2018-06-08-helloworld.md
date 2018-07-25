@@ -1,5 +1,5 @@
 ---
-test1 : test
+test1: test
 title: HelloWorld
 date: 2018-06-08 17:54:00
 permalink: /hello world
@@ -12,7 +12,7 @@ author: Jeniffer Elaina da Silva
 layout: post
 custom_permalink:
   - preco-medio-do-seguro-do-versa
-image: /wp-content/uploads/2018/05/qual-o-preco-medio-do-seguro-do-versa.jpg
+image: /uploads/penguins.jpg
 image_width: '940'
 image_height: '430'
 thumbnail_80x80: /wp-content/uploads/2018/05/qual-o-preco-medio-do-seguro-do-versa-80x80.jpg
