@@ -16,8 +16,8 @@ custom_permalink:
 image: /uploads/penguins.jpg
 image_width: '940'
 image_height: '430'
-thumbnail_80x80: /wp-content/uploads/2018/05/qual-o-preco-medio-do-seguro-do-versa-80x80.jpg
-thumbnail_150x150: /wp-content/uploads/2018/05/qual-o-preco-medio-do-seguro-do-versa-150x150.jpg
+thumbnail_80x80:
+thumbnail_150x150:
 description: >-
   Com um preço médio do seguro do Versa de R$ 2.500,00 ele possui uma proteção
   que se torna acessível. Mas, antes de contratar um seguro conheça um pouco
