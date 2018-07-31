@@ -2,7 +2,7 @@
 author: vishal
 image_file_name: koala.jpg
 description: imageMagick testing
-permalink: '/:title'
+permalink: /:title
 categories:
 - blog
 tags:
