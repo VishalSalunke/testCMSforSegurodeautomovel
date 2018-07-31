@@ -2,7 +2,7 @@
 author: ''
 image_file_name: ''
 description: ''
-permalink: "/:title"
+permalink: /:title
 categories:
 -'blog'
 tags:
