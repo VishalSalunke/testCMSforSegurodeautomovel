@@ -18,7 +18,7 @@ defaults:
     thumbnail_150x150: ''
     description: ''
     canonicalURL: ''
-    permalink: "/:title"
+    permalink: /:title
 name: Seguro de Automóvel
 webName: Segurodeautomovel.org
 description: Cote aqui o seguro do seu carro!
