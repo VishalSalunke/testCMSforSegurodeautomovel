@@ -5,6 +5,7 @@ date: 2018-06-08 17:54:00
 permalink: /hello world
 categories:
   - Cidades
+  - Blog
 tags:
   - cornerstone
 id: 4170
