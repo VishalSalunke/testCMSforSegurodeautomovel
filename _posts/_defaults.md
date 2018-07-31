@@ -1,4 +1,5 @@
 ---
+title:
 layout: post
 author: ''
 image_file_name: ''
