@@ -7,5 +7,4 @@ permalink: /:title
 categories:
 -'blog'
 tags:
--''
 ---
