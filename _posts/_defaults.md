@@ -1,4 +1,5 @@
 ---
+layout: post
 author: ''
 image_file_name: ''
 description: ''
