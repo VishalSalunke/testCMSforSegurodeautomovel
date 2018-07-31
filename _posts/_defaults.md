@@ -2,7 +2,7 @@
 title:
 layout: post
 date:
-permalink: 
+permalink: :title
 author: ''
 image_file_name: ''
 description: ''
