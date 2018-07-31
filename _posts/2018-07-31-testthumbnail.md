@@ -7,8 +7,8 @@ permalink: '/:title'
 
 Hi, we are testing thumbnails here.
 
-cloudcannon should regenerate thumbnails . hope for the best.&nbsp;
+cloudcannon should regenerate thumbnails . hope for the best. 
 
-&nbsp;
+ 
 
 ![](/uploads/koala.jpg)
