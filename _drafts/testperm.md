@@ -1,11 +1,19 @@
 ---
 layout: post
-author:
-image_file_name:
-description:
+author: Vishal
+image_file_name: tulips.jpg
+description: this is just a test post
 permalink: '/:title'
 categories:
   - blog
 tags:
   - Dúvidas sobre seguro auto
 ---
+
+Hey how you doing&gt;
+
+very good morning
+
+![](/uploads/tulips.jpg)
+
+best luck
