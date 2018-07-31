@@ -11,13 +11,8 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: posts
+    type: drafts
   values:
-    author: ''
-    thumbnail_80x80: ''
-    thumbnail_150x150: ''
-    description: ''
-    canonicalURL: ''
     permalink: /:title
 name: Seguro de Automóvel
 webName: Segurodeautomovel.org
