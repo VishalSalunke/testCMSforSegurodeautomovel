@@ -18,46 +18,8 @@ class: home page-template page-template-template_frontpage page-template-templat
 <div class="wrapper categoria">
    <main role="main">
       <!-- section -->
-      <div class="loop-cat">
-         <h2 class="subtitulo-home">
-            Artigos mais visitados
-         </h2>
-         {% assign allPosts = site.posts | where:"tags",page.postType %}
-         {% for post in allPosts limit:4  %}
-         <div class="artigos">
-            <!-- article -->
-            <article id="post-{{post.id}}" class="post-275 post type-post status-publish format-standard has-post-thumbnail category-blog">
-               <!-- post title -->
-               <h3>
-                  <a href="{{post.permalink}}" title="{{post.title}}">{{post.title}} </a>
-               </h3>
-               <!-- /post title -->
-               <!-- post details -->
-               <span class="date">{{ post.date | date: '%B %d, %Y' }} </span>
-               <span class="author">{{post.author}} </span>
-               <!-- /post details -->
-               <div class="default-image">
-                  <a href="{{post.permalink}}" title="{{post.title}}">
-                  <img src="{{post.thumbnail_80x80}}" class="attachment-home-featured size-home-featured wp-post-image" alt="" srcset="{{post.thumbnail_80x80}} 80w, {{post.thumbnail_150x150}} 150w" sizes="(max-width: 80px) 100vw, 80px" /></a>
-               </div>
-               <p>{{ post.content | strip_html | truncatewords: 50}}<a class="view-article" href="{{post.permalink}}">Ver artigo</a></p>
-            </article>
-            <a href="{{post.permalink}}" class="readmore" title="{{post.title}}">Ler Artigo</a>
-            <!-- /article -->
-         </div>
-         {% endfor %}
-      </div>
-      <!-- Start Template Part: Home/Content Logos -->
-      <div class="banner-recall">
-         <div class="frase-recall">
-            FAÇA AGORA A COTAÇÃO DO SEGURO DO SEU CARRO!
-            <a href="#" onclick="document.getElementById('centro_banner_form').submit();" rel="nofollow" title="Corretor">
-               <div class="large button vemm-event-go-to-form">Cotar</div>
-            </a>
-         </div>
-         <img src="/wp-content/themes/segurodeautomovel-html5/img/corretor2.png" alt="Corretor" class="" title="Corretor">
-      </div>
-      <!-- End Template Part: Home/Content Logos -->
+     
+     
       <div class="loop-cat">
          <h2 class="subtitulo-home">
             Todos os artigos
@@ -76,10 +38,20 @@ class: home page-template page-template-template_frontpage page-template-templat
                <span class="date">{{ Recentpost.date | date: '%B %d, %Y' }} </span>
                <span class="author">{{Recentpost.author}} </span>
                <!-- /post details -->
+                 {% if Recentpost.thumbnail_80x80 != "" %} 
+
                <div class="default-image">
                   <a href="{{Recentpost.permalink}}" title="{{Recentpost.title}}">
                   <img src="{{Recentpost.thumbnail_80x80}}" class="attachment-home-featured size-home-featured wp-post-image" alt="" srcset="{{Recentpost.thumbnail_80x80}} 80w,{{Recentpost.thumbnail_150x150}} 150w" sizes="(max-width: 80px) 100vw, 80px" /></a>
                </div>
+
+               {% else %}
+                  <div class="default-image">
+                  <a href="{{Recentpost.permalink}}" title="{{Recentpost.title}}">
+                  <img src="/uploads/thumbnail/{{Recentpost.image_file_name}}" class="attachment-home-featured size-home-featured wp-post-image" alt="" srcset="/uploads/thumbnail/{{Recentpost.image_file_name}} 80w,/uploads/large/{{Recentpost.image_file_name}} 150w" sizes="(max-width: 80px) 100vw, 80px" /></a>
+               </div>
+
+               {% endif %}
                <p>{{ Recentpost.content | strip_html | truncatewords: 50}}<a class="view-article" href="{{Recentpost.permalink}}">Ver artigo</a></p>
             </article>
             <a href="{{Recentpost.permalink}}" class="readmore" title="{{Recentpost.title}}">Ler Artigo</a>

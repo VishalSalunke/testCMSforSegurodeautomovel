@@ -14,16 +14,14 @@ defaults:
     type: posts
   values:
     author: ''
-    thumbnail_80x80: ''
-    thumbnail_150x150: ''
+    image_file_name: ''
     description: ''
-    canonicalURL: ''
     permalink: "/:title"
 name: Seguro de Automóvel
 webName: Segurodeautomovel.org
 description: Cote aqui o seguro do seu carro!
 email: your-email@example.com
-baseurl: ''
+baseurl: 
 url: https://www.segurodeautomovel.org
 twitter_username: jekyllrb
 github_username: jekyll
