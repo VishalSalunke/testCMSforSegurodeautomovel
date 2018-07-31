@@ -5,7 +5,7 @@ date: 2018-07-31 00:00:00
 author: vishal
 image_file_name: desert.jpg
 description: sddd
-permalink: '/:title'
+permalink: /:title
 categories:
   - blog
 tags:
