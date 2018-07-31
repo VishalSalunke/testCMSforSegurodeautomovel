@@ -5,7 +5,7 @@ date:
 author: ''
 image_file_name: ''
 description: ''
-permalink: '/:title'
+permalink: 
 categories:
 - 'blog'
 tags:
