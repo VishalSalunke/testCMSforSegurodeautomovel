@@ -14,14 +14,16 @@ defaults:
     type: posts
   values:
     author: ''
-    image_file_name: ''
+    thumbnail_80x80: ''
+    thumbnail_150x150: ''
     description: ''
+    canonicalURL: ''
     permalink: "/:title"
 name: Seguro de Automóvel
 webName: Segurodeautomovel.org
 description: Cote aqui o seguro do seu carro!
 email: your-email@example.com
-baseurl: 
+baseurl: ''
 url: https://www.segurodeautomovel.org
 twitter_username: jekyllrb
 github_username: jekyll
@@ -30,6 +32,7 @@ theme: minima
 plugins:
 - jekyll-feed
 - jekyll-paginate-v2
+- jekyll-minimagick
 pagination:
   enabled: true
   per_page: 12
@@ -56,3 +59,16 @@ blacklistedTags:
 - Featured
 - cornestone
 - c
+mini_magick:
+    thumbnail: # Preset name
+        source: _uploads # source directory - change this to whatever you want
+        destination: uploads/thumbnail # generated destination directory
+        resize: "80x80^" # standard imagemagick options - you can chain multiple commands
+        gravity: "center"
+        extent: "80x80"
+    large: # Preset name
+        source: _uploads # source directory - change this to whatever you want
+        destination: uploads/large # generated destination directory
+        resize: "150x150^" # standard imagemagick options - you can chain multiple commands
+        gravity: "center"
+        extent: "150x150"   
