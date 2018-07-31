@@ -1,5 +1,4 @@
 ---
-permalink: /:title
 title:
 layout: post
 date:
