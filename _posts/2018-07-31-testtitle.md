@@ -13,6 +13,6 @@ tags:
 
 Create and manage Jekyll blogs with CloudCannon.
 
-&nbsp;
+ 
 
 ![](/uploads/jellyfish.jpg)
