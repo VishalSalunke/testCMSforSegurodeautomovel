@@ -38,7 +38,7 @@ class: home page-template page-template-template_frontpage page-template-templat
                <span class="date">{{ Recentpost.date | date: '%B %d, %Y' }} </span>
                <span class="author">{{Recentpost.author}} </span>
                <!-- /post details -->
-                 {% if Recentpost.thumbnail_80x80 and  !Recentpost.image_file_name %} 
+                 {% if Recentpost.thumbnail_80x80 %} 
 
                <div class="default-image">
                   <a href="{{Recentpost.permalink}}" title="{{Recentpost.title}}">
