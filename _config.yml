@@ -1,7 +1,6 @@
 ---
 title: Seguro de Automóvel
 timezone: UTC
-permalink: /:title
 collections:
   posts:
     title: Posts
