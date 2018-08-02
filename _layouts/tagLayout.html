@@ -31,7 +31,7 @@ class: home page-template page-template-template_frontpage page-template-templat
             <article id="post-{{Recentpost.id}}" class="post-275 post type-post status-publish format-standard has-post-thumbnail category-blog">
                <!-- post title -->
                <h3>
-                  <a href="{{Recentpost.permalink}}" title="{{Recentpost.title}}">{{Recentpost.title}} </a>
+                  <a href="{{Recentpost.url}}" title="{{Recentpost.title}}">{{Recentpost.title}} </a>
                </h3>
                <!-- /post title -->
                <!-- post details -->
@@ -41,20 +41,20 @@ class: home page-template page-template-template_frontpage page-template-templat
                  {% if Recentpost.thumbnail_80x80 %} 
 
                <div class="default-image">
-                  <a href="{{Recentpost.permalink}}" title="{{Recentpost.title}}">
+                  <a href="{{Recentpost.url}}" title="{{Recentpost.title}}">
                   <img src="{{Recentpost.thumbnail_80x80}}" class="attachment-home-featured size-home-featured wp-post-image" alt="" srcset="{{Recentpost.thumbnail_80x80}} 80w,{{Recentpost.thumbnail_150x150}} 150w" sizes="(max-width: 80px) 100vw, 80px" /></a>
                </div>
 
                {% else %}
                   <div class="default-image">
-                  <a href="{{Recentpost.permalink}}" title="{{Recentpost.title}}">
+                  <a href="{{Recentpost.url}}" title="{{Recentpost.title}}">
                   <img src="/uploads/thumbnail/{{Recentpost.image_file_name}}" class="attachment-home-featured size-home-featured wp-post-image" alt="" srcset="/uploads/thumbnail/{{Recentpost.image_file_name}} 80w,/uploads/large/{{Recentpost.image_file_name}} 150w" sizes="(max-width: 80px) 100vw, 80px" /></a>
                </div>
 
                {% endif %}
-               <p>{{ Recentpost.content | strip_html | truncatewords: 50}}<a class="view-article" href="{{Recentpost.permalink}}">Ver artigo</a></p>
+               <p>{{ Recentpost.content | strip_html | truncatewords: 50}}<a class="view-article" href="{{Recentpost.url}}">Ver artigo</a></p>
             </article>
-            <a href="{{Recentpost.permalink}}" class="readmore" title="{{Recentpost.title}}">Ler Artigo</a>
+            <a href="{{Recentpost.url}}" class="readmore" title="{{Recentpost.title}}">Ler Artigo</a>
             <!-- /article -->
          </div>
          {% endfor %}
